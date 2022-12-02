@@ -1,0 +1,152 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#121114;
+    display: flex;
+    justify-content: center;
+}
+
+.mainsec{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    padding: 0;
+    margin: 0;
+    width: 110%;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+main .selectprofile{
+    padding: 0;
+    margin: 0;
+}
+
+main .selectprofile .wsw{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* .selectprofile #profileselect{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 700px;
+    justify-content: center;
+} */
+
+.selectprofile .profiles{
+    max-width: 700px;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles .user{
+    padding: 0;
+    margin: 0;
+}
+
+.profiles .user figure{
+    padding: 0px;
+    margin: 20px;
+    width: 160px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: #868e96;
+}
+
+.profiles .user figure img{
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+.profiles .usernew img{
+    margin: 0;
+    padding: 45px;
+    background-color:#1E1D20 ;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+.profiles .usernew{
+    margin-bottom: 15px;
+    text-align: center;
+    color:#868e96 ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer .divbut{
+    padding: 0;
+    margin: 0;
+}
+
+footer .divbut #manageusers{
+    background-color: #121114;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    padding: 12px 70px;
+    border-radius: 10px;
+}
+
+footer .divbut #manageusers:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #121114;
+    background-color: white;
+}
+
+.profiles .user figure:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+    color: white;
+}
+
+.profiles .user figure img:hover{
+    border-color: white;
+}
+
+.profiles .usernew:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+
+}
+
+.profiles .usernew img:hover{
+    border-color: white;
+}
